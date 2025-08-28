@@ -19,6 +19,7 @@ Implementação de um processador **MIPS pipeline de 5 estágios (IF, ID, EX, ME
 
 ## Estrutura do projeto
 
+```markdown
 ├── mips.vhd              # Top-level
 ├── instanciaIF.vhd       # Instruction Fetch
 ├── instanciaID.vhd       # Instruction Decode
@@ -31,6 +32,7 @@ Implementação de um processador **MIPS pipeline de 5 estágios (IF, ID, EX, ME
 ├── unidadeControle.vhd   # Unidade de controle
 ├── mux*, somador*        # Componentes auxiliares
 └── conversorHex7Seg.vhd  # Saída debug (7 segmentos)
+```
 
 ## Resultados
 - Pipeline funcional com forwarding e hazard detection.
